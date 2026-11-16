@@ -15,3 +15,7 @@ if number > 0:
     for i in range(1, number + 1):
         total = total + i
     print(f"Сумма чисел от 1 до {number}: {total}")
+
+print(f'Квадрат некоторых чисел: 3^2 = {square(3)}')
+print(f'9^2 = {square(9)}')
+print(f'(-1)^2 = {square(-1)}')
